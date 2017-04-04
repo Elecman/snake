@@ -10,24 +10,24 @@ namespace Shake
     {
         static void Main(string[] args)
         {
-            int x1 = 1;
-            int y1 = 3;
-            char sym1 = '*';
+            //Создаем экземпляр класса Point
+            Point p1 = new Point();
+            //Получаем данные для p1 из класса Point
+            p1.x = 1;
+            p1.y = 3;
+            p1.sym = '*';
+            //Вызываем метод Draw для отрисовки точки
+            p1.Draw();
 
-            int x2 = 3;
-            int y2 = 5;
-            char sym2 = '%';
-
-            Draw(x1, y1, sym1);
-            Draw(x2, y2, sym2);
+            //Создаем экземпляр класса Point
+            Point p2 = new Point();
+            //Получаем данные для p1 из класса Point
+            p2.x = 3;
+            p2.y = 3;
+            p2.sym = '@';
+            //Вызываем метод Draw для отрисовки точки
+            p2.Draw();
             Console.ReadLine();
-        }
-
-        // Функция которая отрисовывает точку
-        static void Draw(int x, int y, char sym)
-        {
-            Console.SetCursorPosition(x, y);
-            Console.Write(sym);
         }
     }
 }
