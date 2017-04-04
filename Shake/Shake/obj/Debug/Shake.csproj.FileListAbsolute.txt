@@ -1,0 +1,6 @@
+C:\_JOB\SnakeC#\Shake\Shake\bin\Debug\Shake.exe.config
+C:\_JOB\SnakeC#\Shake\Shake\bin\Debug\Shake.exe
+C:\_JOB\SnakeC#\Shake\Shake\bin\Debug\Shake.pdb
+C:\_JOB\SnakeC#\Shake\Shake\obj\Debug\Shake.csprojResolveAssemblyReference.cache
+C:\_JOB\SnakeC#\Shake\Shake\obj\Debug\Shake.exe
+C:\_JOB\SnakeC#\Shake\Shake\obj\Debug\Shake.pdb
